@@ -4,11 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>PriceXpress – Calcolo Prezzo di Vendita</title>
+  <link rel="stylesheet" href="style.css" />
   <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="pricexpress-192.png" sizes="192x192" type="image/png" />
+  <link rel="apple-touch-icon" href="pricexpress-512.png" />
+  <meta name="theme-color" content="#FF6F61" />
 </head>
 <body>
   <h1>📊 PriceXpress</h1>
   <p>Inserisci i dati per calcolare il prezzo di vendita:</p>
+
   <form id="priceForm">
     <label>Pezzi prodotti: <input type="number" id="pezzi" required /></label><br/>
     <label>Costi variabili totali (€): <input type="number" id="costiVariabili" required /></label><br/>
@@ -16,7 +21,9 @@
     <label>Margine operativo desiderato (%): <input type="number" id="margineOperativo" required /></label><br/>
     <button type="submit">Calcola Prezzo</button>
   </form>
+
   <div id="risultato"></div>
+
   <script src="script.js"></script>
 </body>
 </html>
