@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PriceXpress – Calcolo Prezzo di Vendita</title>
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <h1>📊 PriceXpress</h1>
+  <p>Inserisci i dati per calcolare il prezzo di vendita:</p>
+  <form id="priceForm">
+    <label>Pezzi prodotti: <input type="number" id="pezzi" required /></label><br/>
+    <label>Costi variabili totali (€): <input type="number" id="costiVariabili" required /></label><br/>
+    <label>Costi fissi (€): <input type="number" id="costiFissi" required /></label><br/>
+    <label>Margine operativo desiderato (%): <input type="number" id="margineOperativo" required /></label><br/>
+    <button type="submit">Calcola Prezzo</button>
+  </form>
+  <div id="risultato"></div>
+  <script src="script.js"></script>
+</body>
+</html>
