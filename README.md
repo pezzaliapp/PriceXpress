@@ -1,7 +1,10 @@
-
-# PriceXpress
+# 📊 PriceXpress
 
 ![Icona PriceXpress](./pricexpress-192.png)
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![PWA Ready](https://img.shields.io/badge/PWA-ready-brightgreen)](https://www.alessandropezzali.it/PriceXpress/)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/pezzaliapp/PriceXpress)
 
 **PriceXpress** è una **Progressive Web App (PWA)** open source che ti aiuta a calcolare il **prezzo di vendita minimo sostenibile** di un prodotto o servizio.
 
@@ -27,39 +30,31 @@
 
 ## 🧮 Formula usata
 
-### 1. **Totale Costi**
+### 1. Totale Costi
 
+```
 Totale Costi = Costi Variabili + Costi Fissi
+```
 
-### 2. **Ricavo Desiderato**
+### 2. Ricavo Desiderato
+
 Applichiamo il margine desiderato al ricavo, NON al costo:
 
+```
 Ricavo Desiderato = Totale Costi / (1 - Margine Operativo)
+```
 
 Esempio con margine 30%:
 
+```
 Ricavo = 500 € / (1 - 0.30) = 714,29 €
+```
 
-### 3. **Prezzo Unitario Minimo**
+### 3. Prezzo Unitario Minimo
 
+```
 Prezzo Unitario = Ricavo Desiderato / Quantità Prodotta
-
----
-
-## ✅ Quando usarla
-
-- Prima di lanciare un nuovo prodotto
-- Per confrontare la tua offerta con il mercato
-- In fase di preventivazione, business plan o startup
-
----
-
-## 🖥️ Tecnologie utilizzate
-
-- HTML5, CSS3 (Retro Style)
-- JavaScript Vanilla
-- Manifest PWA + Service Worker per uso offline
-- Compatibile con GitHub Pages, Netlify, Render
+```
 
 ---
 
@@ -71,9 +66,10 @@ Prezzo Unitario = Ricavo Desiderato / Quantità Prodotta
 
 ---
 
-## 🧩 Struttura dei file
+## 🌿 Struttura dei file
 
-📁 PriceXpress/
+```
+PriceXpress/
 ├── index.html
 ├── style.css
 ├── script.js
@@ -82,6 +78,7 @@ Prezzo Unitario = Ricavo Desiderato / Quantità Prodotta
 ├── pricexpress-192.png
 ├── pricexpress-512.png
 └── pricexpress-1024.png
+```
 
 ---
 

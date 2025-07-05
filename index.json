@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "name": "PriceXpress",
+      "description": "Calcola il prezzo minimo di vendita sostenibile di un prodotto, partendo da costi e margini.",
+      "version": "1.0.0",
+      "url": "https://www.alessandropezzali.it/PriceXpress/",
+      "repo": "https://github.com/pezzaliapp/PriceXpress",
+      "icon": "pricexpress-192.png",
+      "author": "Alessandro Pezzali",
+      "tags": [
+        "calcolo",
+        "margine",
+        "vendita",
+        "PWA",
+        "economia",
+        "pricing"
+      ],
+      "created": "2025-07-05"
+    }
+  ]
+}
