@@ -1,0 +1,53 @@
+body {
+  background-color: #0000AA; /* Commodore 64 Blue */
+  color: #00FF00; /* Fenner Green */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  margin: 0;
+  padding: 2em;
+}
+
+h1 {
+  font-size: 2em;
+  color: #00FF00;
+  margin-bottom: 0.5em;
+}
+
+p {
+  color: #00FF00;
+}
+
+form {
+  margin-top: 1em;
+  background-color: #000088;
+  padding: 1em;
+  border: 2px solid #00FF00;
+  border-radius: 8px;
+  max-width: 500px;
+}
+
+label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+input, button {
+  background-color: #000066;
+  color: #00FF00;
+  border: 1px solid #00FF00;
+  padding: 5px;
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#risultato {
+  margin-top: 2em;
+  background-color: #000070;
+  padding: 1em;
+  border: 1px dashed #00FF00;
+  color: #00FF00;
+}
